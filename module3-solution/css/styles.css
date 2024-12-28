@@ -1,0 +1,38 @@
+html, span, h1, h2, p {
+	font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+}
+.navbar .container-fluid, #main-content .row section {
+   background-color: #999;
+}
+a {
+   color:#212529;
+   text-decoration: none;
+ }
+ h1 {
+   margin:1rem auto 2rem;
+ }
+.navbar {
+   border-top: 3px solid #212529;
+   border-bottom: 3px solid #212529;
+   padding:0;
+}
+.navbar .container-fluid {
+   min-height: 100px;
+}
+#navbarSupportedContent {
+   font-size: 1.5rem;
+}
+#navbarSupportedContent li {
+   border-top: 1px solid #212529;
+}
+#navbarSupportedContent li:first-child {
+   border-width: 3px;
+}
+#main-content .row section {
+   min-height: 1000px;
+   margin:0 15px;
+   padding-top:15px;
+}
+#main-content p {
+   margin:0 15px;
+}
